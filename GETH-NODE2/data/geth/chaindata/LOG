@@ -1,0 +1,30 @@
+=============== Dec 30, 2022 (-05) ===============
+11:16:58.471515 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:16:58.495753 db@open opening
+11:16:58.496371 version@stat F·[] S·0B[] Sc·[]
+11:16:58.501715 db@janitor F·2 G·0
+11:16:58.501733 db@open done T·5.961167ms
+11:16:58.541272 db@close closing
+11:16:58.541312 db@close done T·39.667µs
+=============== Dec 30, 2022 (-05) ===============
+11:17:01.699220 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:17:01.699354 version@stat F·[] S·0B[] Sc·[]
+11:17:01.699367 db@open opening
+11:17:01.699405 journal@recovery F·1
+11:17:01.700392 journal@recovery recovering @1
+11:17:01.706194 memdb@flush created L0@2 N·24 S·1KiB "E\x933..\x88G(,v7":"\xf5\xf9(..nӦ,v13"
+11:17:01.706846 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+11:17:01.722442 db@janitor F·3 G·0
+11:17:01.722475 db@open done T·23.1ms
+=============== Jan 2, 2023 (-05) ===============
+04:59:02.902917 memdb@flush N·1266898 S·127MiB
+04:59:03.362207 memdb@flush created L0@6 N·1266898 S·55MiB ",\xecR..\x1d\xd4\xeb,v1641":"\xf5\xa0\xf6..ҵT,v1632"
+04:59:03.362257 version@stat F·[2] S·55MiB[55MiB] Sc·[0.50]
+04:59:03.366032 memdb@flush committed F·1 T·462.508293ms
+04:59:03.390072 journal@remove removed @3
+=============== Jan 4, 2023 (-05) ===============
+17:53:16.030299 memdb@flush N·1381985 S·127MiB
+17:53:16.539978 memdb@flush created L0@8 N·1381985 S·59MiB "B\x00\x00..@\xa8\a,v1273690":"unc..own,v1267416"
+17:53:16.540011 version@stat F·[3] S·115MiB[115MiB] Sc·[0.75]
+17:53:16.543933 memdb@flush committed F·1 T·513.461ms
+17:53:16.558495 journal@remove removed @5
